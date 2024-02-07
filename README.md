@@ -1,5 +1,7 @@
 # `kb1`: a fully DIY mechanical keyboard
 
+_(WIP: I am slowly collecting stuff into this one repo. FW/HW will be added)_
+
 ![](pics/full_centered.jpg)
 
 Features:
@@ -17,7 +19,18 @@ To challenge myself and practice PCB design!
 
 Is it tons of fun to design and build your own keyboard from scratch? Hell yeah. Would I recommend this board for daily use? Not really :^)
 
-## Software
+## Hardware / BoM
+
+TODO
+
+
+## Firmware
+
+It's just a simple KMK setup with scaffolding code for the display and RGB. Actually doing something with the display is still TBD.
+
+As a demo there is currently a bit of logic to map individual RGB leds to keys so it can light up a key when pressed. Twisting the knob changes the overall backlight color.
+
+TODO: build/flash instructions.
 
 
 ## Pics
@@ -28,10 +41,6 @@ Is it tons of fun to design and build your own keyboard from scratch? Hell yeah.
 |![](pics/left_view.jpg)|![](pics/right_view.jpg)|
 |![](pics/top_back_view.jpg)|![](pics/kb1.jpg)|
 
-
-## Bill of materials
-
-- TODO
 
 ## Disclaimer 
 
